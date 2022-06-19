@@ -1,10 +1,7 @@
 import { randomUUID } from 'crypto';
 import { IUser } from './user';
 
-export const users: IUser[] = [
-  {username: "asd", age: 25, hobbies: ['basketball', 'swimming'], id: "d89b77f3-f86c-4c6f-8823-aabe750a64a7", },
-  {username: "zxc", age: 15, hobbies: ['dota', 'cs:go'], id: "fc80110b-0c87-4bd2-882a-ffe3c397d645", }
-]
+export const users: IUser[] = []
 
 export const getUsers =  async (req:Request, res: any) => {
   res.send(users);
