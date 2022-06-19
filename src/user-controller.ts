@@ -16,6 +16,6 @@ export const createUser = async  (req: { body: IUser}, res: any) => {
     res.send(user);
   } else {
     res.writeHead(400, { "Content-Type": "application/json" });
-    res.end(JSON.stringify({ message: "Body does not contain required fields or fields are invalid. Username should be string, age - number, hobbies - array of strings or empty array" }));
+    res.end(JSON.stringify({ message: "Body doesn't contain required fields, or fields are invalid. Username should be a string, age - a number, hobbies - an array of strings or an empty array" }));
   }
 }
