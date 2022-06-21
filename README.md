@@ -1,6 +1,6 @@
 # Simple CRUD-API Node JS APP
 
-# Commands: #
+# Commands #
 
 1. **`npm install`** command for install all necessary dependencies
 2. **`npm run start:dev`** starts the application in development mode using nodemon
